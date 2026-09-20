@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c82f36da-0f75-41b2-a292-53043f65462f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/G-Pythonautomation_softwares-Sanfoundry_programs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/April_2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/GUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/opencv_scanning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/Files/socratics_json.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/Geek_forgeeks/Challenge1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/install_package.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/regex_pattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_Programs/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec_2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pondicherry_map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Refractoring_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rent_receipts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAPICAMS.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/September_2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/.cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_fixture1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_fixture2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/test_parametrize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_framework/xfail_skip_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Accessing_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Accessing_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Web_scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Web_scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/convert_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/convert_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/Requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/Requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/excel_sheet_openpyxl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/excel_sheet_openpyxl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/excelsheet_data_reading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/excelsheet_data_reading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/merging_pictures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/merging_pictures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/random_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/random_num.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Files/File_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Files/File_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Files/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Files/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Files/json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Files/json_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/Functions/different_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/Functions/different_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/User_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/User_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/XML_doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/XML_doc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/regular_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/regular_expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/handling_webtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/handling_webtable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/load_browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/load_browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/testcases/selenium_openfacebook.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Programs/web_automation_framework/testcases/selenium_openfacebook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructure_algorithms/Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructure_algorithms/Arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructure_algorithms/Binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructure_algorithms/Binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructure_algorithms/Insertion_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructure_algorithms/Insertion_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs_Python.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Programs_Python.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythonexceldata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Pythonexceldata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regex_srch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regex_srch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_side_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_side_auth.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Vv10Q0770lJb73aYqX18WEA4VT" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python_Practise_Programs\G-Pythonautomation_softwares-Sanfoundry_programs\pytest_framework" />
+      <recent name="D:\Python_Practise_Programs\G-Pythonautomation_softwares-Sanfoundry_programs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.COVID-19_cases">
+    <configuration name="Age_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/Age_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="COVID-19_cases" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Programs/Analysis_pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/COVID-19_cases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python_sounds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Programs/Automate_Boringstuff/Python_sounds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python_Practise_Programs\G-Pythonautomation_softwares-Sanfoundry_programs\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Web_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Programs/Analysis_pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Programs/Analysis_pandas/Web_scrapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handling_webtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="G-Pythonautomation_softwares-Sanfoundry_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_Programs/web_automation_framework/selenium_lib/handling_webtable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.handling_webtable" />
+      <item itemvalue="Python.Web_scrapping" />
+      <item itemvalue="Python.COVID-19_cases" />
+      <item itemvalue="Python.Age_detection" />
+      <item itemvalue="Python.Python_sounds" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.COVID-19_cases" />
+        <item itemvalue="Python.Python_sounds" />
+        <item itemvalue="Python.Age_detection" />
+        <item itemvalue="Python.Web_scrapping" />
+        <item itemvalue="Python.handling_webtable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c82f36da-0f75-41b2-a292-53043f65462f" name="Default Changelist" comment="" />
+      <created>1578118530628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578118530628</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Basic_Programs/Geek_forgeeks/Challenge1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Basic_Programs/gui.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

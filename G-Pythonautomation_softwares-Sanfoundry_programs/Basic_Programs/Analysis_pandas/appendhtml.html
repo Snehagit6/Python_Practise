@@ -1,0 +1,225 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   function changecolor(){
+var dtable = document.getElementById('Datatable');
+var i,j;
+var rowLength = dtable.rows.length;
+
+
+for (i = 0; i < rowLength; i++) {
+    for(j=0;j<dtable.rows[i].cells.length;j++){
+if (dtable.rows[i].cells[j].innerHTML='FAILED'){
+    dtable.rows[i].cells[j].innerHTML="<span style='color: red;'>FAILED</span>";
+}
+else if(dtable.rows[i].cells[j].innerHTML='PASSED'){
+dtable.rows[i].cells[j].innerHTML="<span style='color: green;'>PASSED</span>";
+}
+}
+}
+}
+  </script>
+  <style>
+   h2 {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    table { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td {
+     
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 90%;
+        
+        
+    }
+   td{
+   line-height:2.5em;
+   }
+   
+    .wide {
+        width: 90%; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2>
+   Dummy_Scenario
+  </h2>
+  <div id="div1">
+   <table id="Datatable">
+    <td>
+     <table border="1" class="dataframe wide">
+      <thead>
+       <tr style="text-align: right;">
+        <th>
+        </th>
+        <th>
+         id_source
+        </th>
+        <th>
+         id_target
+        </th>
+        <th>
+         Name_source
+        </th>
+        <th>
+         Name_target
+        </th>
+        <th>
+         subject_id_source
+        </th>
+        <th>
+         subject_id_target
+        </th>
+        <th>
+         Result
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <th>
+         0
+        </th>
+        <td>
+         78987
+        </td>
+        <td>
+         78987
+        </td>
+        <td>
+         Alex
+        </td>
+        <td>
+         Alex
+        </td>
+        <td>
+         sub1
+        </td>
+        <td>
+         subject
+        </td>
+        <td style="color:red;">
+         FAILED
+        </td>
+       </tr>
+       <tr>
+        <th>
+         1
+        </th>
+        <td>
+         2890
+        </td>
+        <td>
+         2890
+        </td>
+        <td>
+         Amy
+        </td>
+        <td>
+         Amy
+        </td>
+        <td>
+         sub2
+        </td>
+        <td>
+         sub2
+        </td>
+        <td style="color:green;">
+         PASSED
+        </td>
+       </tr>
+       <tr>
+        <th>
+         2
+        </th>
+        <td>
+         3987
+        </td>
+        <td>
+         3987
+        </td>
+        <td>
+         Allen
+        </td>
+        <td>
+         Allen
+        </td>
+        <td>
+         sub4
+        </td>
+        <td>
+         sub3
+        </td>
+        <td style="color:red;">
+         FAILED
+        </td>
+       </tr>
+       <tr>
+        <th>
+         3
+        </th>
+        <td>
+         4098
+        </td>
+        <td>
+         4098
+        </td>
+        <td>
+         Alice
+        </td>
+        <td>
+         Alice
+        </td>
+        <td>
+         sub6
+        </td>
+        <td>
+         sub6
+        </td>
+        <td style="color:green;">
+         PASSED
+        </td>
+       </tr>
+       <tr>
+        <th>
+         4
+        </th>
+        <td>
+         5897
+        </td>
+        <td>
+         5897
+        </td>
+        <td>
+         Ayoung
+        </td>
+        <td>
+         Ayoung
+        </td>
+        <td>
+         sub5
+        </td>
+        <td>
+         sub5
+        </td>
+        <td style="color:green;">
+         PASSED
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </td>
+   </table>
+  </div>
+ </body>
+</html>

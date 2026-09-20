@@ -1,0 +1,322 @@
+1554652398837	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.xS767542uxBM"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554652408293	Marionette	INFO	Listening on port 51752
+1554652408773	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554652419405	Marionette	DEBUG	[6442450945] Frame script loaded
+1554652419417	Marionette	DEBUG	[6442450945] Frame script registered
+1554652419665	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554652420416	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554652423215	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554652434558	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js, line 114: Error: We have already registered a distinct blocker with the same name: Crash Reporter: blocking on minidumpgeneration.
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 376))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 1812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554659824391	Marionette	INFO	Stopped listening on port 51752
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554653861105	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Parent 8408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554654403814	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.HZ5UJvXZAzlR"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654410084	Marionette	INFO	Listening on port 53560
+1554654410386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654410497	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654410508	Marionette	DEBUG	[6442450945] Frame script registered
+1554654410537	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654411366	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654413859	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554654415676	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554654680652	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.0BvcPdMTXmBM"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654687549	Marionette	INFO	Listening on port 53853
+1554654687778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654687833	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654687843	Marionette	DEBUG	[6442450945] Frame script registered
+1554654687892	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654688463	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654690335	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554654691822	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554654775967	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.alPLPdCEetE5"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654782084	Marionette	INFO	Listening on port 54002
+1554654782151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654782196	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654782205	Marionette	DEBUG	[6442450945] Frame script registered
+1554654782254	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654782776	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654784959	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554654786413	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Child 7192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 7704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10352, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GFX1-]: CreateShaderResourceView failed for format87
+[Child 9464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554654844902	Marionette	INFO	Stopped listening on port 54002
+[GPU 7448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554654849480	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.Hf8c9qJODIwf"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654854548	Marionette	INFO	Listening on port 54131
+1554654854931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654855027	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654855042	Marionette	DEBUG	[6442450945] Frame script registered
+1554654855093	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654855628	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654857218	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554654858761	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Parent 10580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654937626	Marionette	INFO	Listening on port 54263
+1554654937798	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654937868	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654937877	Marionette	DEBUG	[6442450945] Frame script registered
+1554654937909	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654938437	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654940948	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554654942374	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Parent 3264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 4236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3264, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3264, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1554654985141	Marionette	INFO	Stopped listening on port 54263
+[GPU 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSource::Msg_Teardown Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_Teardown Route error: message sent to unknown actor ID
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554654988834	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.vXBKjwXlXdK4"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554654995763	Marionette	INFO	Listening on port 54375
+1554654995987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554654996035	Marionette	DEBUG	[6442450945] Frame script loaded
+1554654996045	Marionette	DEBUG	[6442450945] Frame script registered
+1554654996073	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554654996614	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554654998815	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554655000342	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554655000578	Marionette	INFO	Stopped listening on port 54375
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11228, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 11228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554655086368	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.TlwJrQJvoFUo"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655092127	Marionette	INFO	Listening on port 54512
+1554655092429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554655092495	Marionette	DEBUG	[6442450945] Frame script loaded
+1554655092509	Marionette	DEBUG	[6442450945] Frame script registered
+1554655092558	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554655093151	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554655094799	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554655096244	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554655096446	Marionette	INFO	Stopped listening on port 54512
+[Parent 11204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11204, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 9520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554655510456	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.Dmqmyuxp7R1c"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655530656	Marionette	INFO	Listening on port 55112
+[Child 3828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554655530798	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655532442	Marionette	DEBUG	[6442450945] Frame script loaded
+1554655532459	Marionette	DEBUG	[6442450945] Frame script registered
+1554655532532	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554655533070	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554655534492	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655536808	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Child 10088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A000E,name=PHttpChannel::Msg_Dele[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655668796	Marionette	INFO	Listening on port 55352
+1554655669128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554655669182	Marionette	DEBUG	[6442450945] Frame script loaded
+1554655669192	Marionette	DEBUG	[6442450945] Frame script registered
+1554655669224	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554655669740	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554655671868	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554655673521	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+[Parent 10572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 10780, Chrome_ChildThread] WARN[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655734126	Marionette	INFO	Listening on port 55493
+1554655734138	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554655734184	Marionette	DEBUG	[6442450945] Frame script loaded
+1554655734215	Marionette	DEBUG	[6442450945] Frame script registered
+1554655734272	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554655734825	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554655737298	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554655738840	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554655739027	Marionette	INFO	Stopped listening on port 55493
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10024, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1554655787079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.a5OHZ3uq8rGY"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554655793724	Marionette	INFO	Listening on port 55622
+1554655794227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554655794324	Marionette	DEBUG	[6442450945] Frame script loaded
+1554655794383	Marionette	DEBUG	[6442450945] Frame script registered
+1554655794486	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554655795016	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554655796567	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1554655798180	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1554655798463	Marionette	INFO	Stopped listening on port 55622
+[Child 7484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556550219812	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.mkHyaKGoei2l"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[Child 5672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7952, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1556550275227	Marionette	INFO	Listening on port 50704
+1556550275860	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556550275934	Marionette	DEBUG	[6442450945] Frame script loaded
+1556550275944	Marionette	DEBUG	[6442450945] Frame script registered
+1556550277260	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556550281443	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+[GFX1-]: CreateShaderResourceView failed for format87
+1556550328359	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demo.guru99.com/test/write-xpath-table.html
+1556550338559	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demo.guru99.com/test/write-xpath-table.html
+1556550341637	Marionette	INFO	Stopped listening on port 50704
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 7784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7952, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 7952, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 5520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

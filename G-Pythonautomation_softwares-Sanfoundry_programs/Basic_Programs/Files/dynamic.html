@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic</title>
+    <!--jquery file from CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--$(selector).action()-->
+    <script>
+        $(document).ready(function(){
+        $("#jq").hover(function(){
+        alert($("#para").text());
+        });
+        $("#text,.c").on({
+        click:function(){
+        alert("Enter an input");
+        },
+        focus:function(){
+        $(this).css("background-color","ffffff");
+        },
+        blur:function(){
+        $(this).css("background-color", "#cccccc");
+        }
+        });
+        $("ul").on('click','li',function(){
+
+        $(this).fadeout(500);
+        });
+        $("#bt").click(function(){
+        $('ul').append('<li>Dance</li>');
+        });
+        $(function(){$("#acd").accordion();
+        });
+        });
+    </script>
+</head>
+<div>
+
+<h1>Dynamic WebPage</h1>
+<br>
+<button id="jq">Jquery</button>
+<p id="para">Welcome to <b>Jquery</b> script</p>
+<span>Enter name:</span>
+<input class="c" type="text">
+<br>
+<br>
+<span>Enter age:</span>
+<input  id="text">
+<br>
+<button id="bt">Add</button>
+<ul>
+    <li>
+        Play
+    </li>
+    <li>
+       Talk
+    </li>
+</ul>
+<div id="acd">
+<h3>First heading</h3>
+<div><p>Content 1</p>
+<p>Content 2</p></div>
+<h3>Second heading</h3>
+<div><p>Content 1</p>
+    <p>Content 2</p></div>
+<h4>Third heading</h4>
+<div><p>Content 1</p>
+    <p>Content 2</p></div>
+</div>
+
+</body>
+</html>
