@@ -1,1 +1,0 @@
-from unittest.TestCase import TestIsEvenMethod

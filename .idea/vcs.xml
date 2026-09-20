@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/G-Pythonautomation_softwares-Sanfoundry_programs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/G-Pythonautomation_softwares-Sanfoundry_programs/Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Praccy_Progs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Praccy_Progs/Python" vcs="Git" />
   </component>
 </project>

@@ -1,4 +1,0 @@
-DOB;Technology;OS
-Anmol S;17/8/1994;Python;Windows
-Sneha M;13/6/1992;Python;Linux
-Surabhi K;14/6/1993;Java;Windows
