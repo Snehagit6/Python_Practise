@@ -1,0 +1,1060 @@
+1554037114743	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.ox4Tn4JUnpmy"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037127005	Marionette	INFO	Listening on port 49703
+1554037127693	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037132607	Marionette	DEBUG	[4294967297] Frame script loaded
+1554037132623	Marionette	DEBUG	[4294967297] Frame script registered
+1554037132832	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1554037133794	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1554037135667	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554037138816	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.flipkart.com/
+1554037244515	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.ioaQW0ZGajoW"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037254902	Marionette	INFO	Listening on port 49789
+1554037255048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554037255100	Marionette	DEBUG	[6442450945] Frame script loaded
+1554037255179	Marionette	DEBUG	[6442450945] Frame script registered
+1554037256784	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554037258412	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554037259591	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554037263030	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+[Child 4188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8884, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1554037321349	Marionette	INFO	Stopped listening on port 49789
+[GPU 6656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554037325177	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.vQr36Suqly0A"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037332909	Marionette	INFO	Listening on port 49881
+1554037332986	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554037333063	Marionette	DEBUG	[6442450945] Frame script loaded
+1554037333097	Marionette	DEBUG	[6442450945] Frame script registered
+1554037333151	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554037335164	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554037336383	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554037340467	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554037343523	Marionette	INFO	Stopped listening on port 49881
+[Child 7556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2636, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 7744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554037411070	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.AuDljoZPNfC2"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037416226	Marionette	INFO	Listening on port 49960
+1554037416510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554037416598	Marionette	DEBUG	[6442450945] Frame script loaded
+1554037416611	Marionette	DEBUG	[6442450945] Frame script registered
+1554037416644	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554037418644	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554037420717	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554037423772	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554037427108	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554037427128	Marionette	INFO	Stopped listening on port 49960
+[Parent 7816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7816, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554037442536	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.aDtyQ3bfBpeR"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554037449247	Marionette	INFO	Listening on port 50035
+1554037449650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554037449747	Marionette	DEBUG	[6442450945] Frame script loaded
+1554037449763	Marionette	DEBUG	[6442450945] Frame script registered
+1554037449793	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554037450913	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554037452665	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554037455976	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554037459523	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554037462533	Marionette	INFO	Stopped listening on port 50035
+[Child 7736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554383675800	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.O9cBiqIpHIO0"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[Parent 2144, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GFX1-]: CreateShaderResourceView failed for format87
+1554383718547	Marionette	INFO	Listening on port 60162
+1554383719429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554383719626	Marionette	DEBUG	[6442450945] Frame script loaded
+1554383720673	Marionette	DEBUG	[6442450945] Frame script registered
+[GFX1-]: CreateShaderResourceView failed for format87
+1554383724896	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554383725844	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554383727877	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554383732607	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+[Parent 2144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554383972545	Marionette	INFO	Stopped listening on port 60162
+[GPU 4692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+um/src/chrome/common/ipc_channel_win.cc, line 346
+1554383879812	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554383883681	Marionette	DEBUG	[6442450945] Frame script loaded
+1554383883695	Marionette	DEBUG	[6442450945] Frame script registered
+[GFX1-]: CreateShaderResourceView failed for format87
+1554383887277	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554383888031	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554383889232	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554383891768	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+[Child 8892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: CreateShaderResourceView failed for format87
+1554383978519	Marionette	INFO	Listening on port 60379
+1554383978744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554383978806	Marionette	DEBUG	[6442450945] Frame script loaded
+1554383978818	Marionette	DEBUG	[6442450945] Frame script registered
+1554383982383	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554383983470	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554383984800	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554383987523	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554383990931	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554383994276	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554383994323	Marionette	INFO	Stopped listening on port 60379
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7344, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 9840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7344, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 7472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554785585294	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.uA4jqeoUqrDY"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554785593473	Marionette	INFO	Listening on port 50021
+1554785593657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554785593866	Marionette	DEBUG	[6442450945] Frame script loaded
+1554785593884	Marionette	DEBUG	[6442450945] Frame script registered
+1554785597681	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554785598458	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554785601347	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554785605890	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554785609844	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554785613185	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554785614927	Marionette	INFO	Stopped listening on port 50021
+[Child 8672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6328, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554785901845	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.q43TrLIBRBhQ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554785908163	Marionette	INFO	Listening on port 50124
+1554785908405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554785908451	Marionette	DEBUG	[6442450945] Frame script loaded
+1554785908460	Marionette	DEBUG	[6442450945] Frame script registered
+1554785912008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554785913239	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554785914347	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554785916992	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554785920372	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554785923721	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554785923766	Marionette	INFO	Stopped listening on port 50124
+[Child 9672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3812, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554787003210	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.50YfJgAxIZCM"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554787009207	Marionette	INFO	Listening on port 50254
+1554787009227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554787009283	Marionette	DEBUG	[6442450945] Frame script loaded
+1554787009385	Marionette	DEBUG	[6442450945] Frame script registered
+1554787012954	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554787013874	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554787015068	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554787017621	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554787021059	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787024405	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787027893	Marionette	INFO	Stopped listening on port 50254
+[Child 5952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8988, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 3636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554787058105	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.enaLZWt8VX4r"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554787063930	Marionette	INFO	Listening on port 50331
+1554787064204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554787064251	Marionette	DEBUG	[6442450945] Frame script loaded
+1554787064284	Marionette	DEBUG	[6442450945] Frame script registered
+1554787067847	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554787068740	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554787069817	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554787072561	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554787075988	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787079268	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787083701	Marionette	INFO	Stopped listening on port 50331
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554787202202	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.VZONwsnRPN80"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554787208453	Marionette	INFO	Listening on port 50411
+1554787208745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554787208797	Marionette	DEBUG	[4294967297] Frame script loaded
+1554787208813	Marionette	DEBUG	[4294967297] Frame script registered
+1554787212364	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1554787213298	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1554787214363	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554787216758	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.flipkart.com/
+1554787220016	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1554787223363	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1554787226752	Marionette	INFO	Stopped listening on port 50411
+[Child 7252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1057: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+[GPU 6448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554787444744	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.1aPEAgkWJQ94"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554787451157	Marionette	INFO	Listening on port 50496
+1554787451334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554787451416	Marionette	DEBUG	[6442450945] Frame script loaded
+1554787451526	Marionette	DEBUG	[6442450945] Frame script registered
+1554787455108	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554787456049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554787457102	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554787459763	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554787463035	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787466432	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787470390	Marionette	INFO	Stopped listening on port 50496
+[Parent 9036, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9036, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554787613484	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.1ls6FU4GNicM"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554787620034	Marionette	INFO	Listening on port 50575
+1554787620126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554787620197	Marionette	DEBUG	[6442450945] Frame script loaded
+1554787620207	Marionette	DEBUG	[6442450945] Frame script registered
+1554787623750	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554787624690	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554787625767	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554787628274	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554787631653	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554787635007	Marionette	INFO	Stopped listening on port 50575
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7948, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554788842463	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.tknsukpZvKNo"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554788849782	Marionette	INFO	Listening on port 50780
+1554788850102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554788850166	Marionette	DEBUG	[6442450945] Frame script loaded
+1554788850176	Marionette	DEBUG	[6442450945] Frame script registered
+1554788853727	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554788854733	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554788855772	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554788858593	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554788861989	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554788896080	Marionette	INFO	Stopped listening on port 50780
+[Child 7016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5440, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 4252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554788922982	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.WO0xqu56rEkD"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554788929210	Marionette	INFO	Listening on port 50863
+1554788929561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554788929617	Marionette	DEBUG	[6442450945] Frame script loaded
+1554788929633	Marionette	DEBUG	[6442450945] Frame script registered
+1554788933778	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554788934654	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554788935753	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554788938273	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554788941553	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554788980460	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.qUbsvSlsRiD9"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554788985503	Marionette	INFO	Listening on port 50944
+1554788985907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554788985971	Marionette	DEBUG	[6442450945] Frame script loaded
+1554788985984	Marionette	DEBUG	[6442450945] Frame script registered
+1554788989559	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554788990576	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554788991595	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554788994071	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554788997488	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789041450	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.zLE3xCzbKCHE"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789046219	Marionette	INFO	Listening on port 51022
+1554789046479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789046526	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789046534	Marionette	DEBUG	[6442450945] Frame script registered
+1554789050097	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789051070	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789052216	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789054475	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789058016	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789168053	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.s7uUWW8MfaAU"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789173360	Marionette	INFO	Listening on port 51113
+1554789173475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789173551	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789173566	Marionette	DEBUG	[6442450945] Frame script registered
+1554789177290	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789178594	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789179681	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789183332	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789186707	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789227207	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.xjjLB3nK7lPB"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789232878	Marionette	INFO	Listening on port 51193
+1554789233272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789233319	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789233328	Marionette	DEBUG	[6442450945] Frame script registered
+1554789236898	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789238083	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789239122	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789241402	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789244782	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789398492	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.U08IcyQFjGvp"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789405207	Marionette	INFO	Listening on port 51313
+1554789405633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789405689	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789405702	Marionette	DEBUG	[6442450945] Frame script registered
+1554789409254	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789410488	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789411674	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789414642	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789417927	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789517730	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.5qGRZP0N5unc"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789523860	Marionette	INFO	Listening on port 51400
+1554789524296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789524359	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789524369	Marionette	DEBUG	[6442450945] Frame script registered
+1554789527921	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789528791	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789529770	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789532027	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789535431	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789551043	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.nZn8h6IG0NQr"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789557081	Marionette	INFO	Listening on port 51477
+1554789557565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789557618	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789557711	Marionette	DEBUG	[6442450945] Frame script registered
+1554789561362	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789562395	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789563578	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789565739	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789569148	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789572171	Marionette	INFO	Stopped listening on port 51477
+[Parent 8824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554789641566	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.55AHJipJa403"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789645936	Marionette	INFO	Listening on port 51553
+1554789646226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789646284	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789646301	Marionette	DEBUG	[6442450945] Frame script registered
+1554789649840	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789650942	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789652003	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789654158	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789657526	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789660981	Marionette	INFO	Stopped listening on port 51553
+[Child 8104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6228, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 2136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554789770448	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.EuNSjIbVuRxq"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789775227	Marionette	INFO	Listening on port 51628
+1554789775540	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789779197	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789779206	Marionette	DEBUG	[6442450945] Frame script registered
+1554789782768	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789783577	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789784594	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789787338	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789790724	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789794136	Marionette	INFO	Stopped listening on port 51628
+[Parent 9124, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9124, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1554789970607	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.CMfZZtNHmrtZ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554789975503	Marionette	INFO	Listening on port 51767
+1554789975558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554789975609	Marionette	DEBUG	[6442450945] Frame script loaded
+1554789975619	Marionette	DEBUG	[6442450945] Frame script registered
+1554789979196	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554789980475	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554789981577	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554789984727	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554789988095	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554789993164	Marionette	INFO	Stopped listening on port 51767
+[Child 9608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 4500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554790146869	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.g7nP5p6MxYA8"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554790155413	Marionette	INFO	Listening on port 51872
+1554790156067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554790156122	Marionette	DEBUG	[6442450945] Frame script loaded
+1554790156123	Marionette	DEBUG	[6442450945] Frame script registered
+1554790159681	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554790161099	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554790162416	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554790165572	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554790168934	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554790173724	Marionette	INFO	Stopped listening on port 51872
+[Child 1016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3504, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 3504, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 3504, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 3504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+[Child 7308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8500, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 10152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554790277299	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.3VPUieop065R"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1554790283087	Marionette	INFO	Listening on port 51956
+1554790283313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554790283359	Marionette	DEBUG	[6442450945] Frame script loaded
+1554790283367	Marionette	DEBUG	[6442450945] Frame script registered
+1554790286924	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1554790287845	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1554790288880	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1554790291387	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1554790294651	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1554790301085	Marionette	INFO	Stopped listening on port 51956
+[Child 10040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7660, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1557326056539	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.1TLXNACyXZIQ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[Child 7060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2812, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326109974	Marionette	INFO	Listening on port 49923
+1557326110121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326110208	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326110235	Marionette	DEBUG	[6442450945] Frame script registered
+1557326114857	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326117851	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326130624	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326135133	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326138958	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1557326148817	Marionette	INFO	Stopped listening on port 49923
+[Parent 2812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557326345029	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.neBxdKwR4NhH"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1557326356843	Marionette	INFO	Listening on port 50259
+[Parent 6488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557326357076	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326361542	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326361577	Marionette	DEBUG	[6442450945] Frame script registered
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326365146	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326366016	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326367342	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326369382	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326462880	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.PvKNfJf9MHbn"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326469810	Marionette	INFO	Listening on port 50462
+1557326470003	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326470084	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326470094	Marionette	DEBUG	[6442450945] Frame script registered
+1557326473670	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326474527	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326475644	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326478149	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326491515	Marionette	INFO	Stopped listening on port 50462
+[Child 8792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4080, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 8764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4080, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 7016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557326597086	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.Qt4BoNYhCVyI"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326602826	Marionette	INFO	Listening on port 50675
+1557326603219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326603304	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326603326	Marionette	DEBUG	[6442450945] Frame script registered
+1557326606924	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326607690	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326608716	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326611321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326621532	Marionette	INFO	Stopped listening on port 50675
+[Parent 8280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557326650690	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.rmikotGkrqJw"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326656101	Marionette	INFO	Listening on port 50803
+1557326656666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326656744	Marionette	DEBUG	[4294967297] Frame script loaded
+1557326656753	Marionette	DEBUG	[4294967297] Frame script registered
+1557326660323	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1557326661167	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1557326662199	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326664117	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.flipkart.com/
+1557326667141	Marionette	INFO	Stopped listening on port 50803
+[Child 8468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4304, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557326696444	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.MSKj6kLltKHd"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326701040	Marionette	INFO	Listening on port 50916
+1557326701364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326701469	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326701494	Marionette	DEBUG	[6442450945] Frame script registered
+1557326705197	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326705995	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326707056	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326709328	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326722709	Marionette	INFO	Stopped listening on port 50916
+[Child 8528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557326749930	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.vTTdFRnAulol"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326755428	Marionette	INFO	Listening on port 51041
+1557326755465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326755514	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326755532	Marionette	DEBUG	[6442450945] Frame script registered
+1557326759126	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326759901	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326760931	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326763300	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326766654	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1557326766659	Marionette	INFO	Stopped listening on port 51041
+[Child 8772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2488, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557326796229	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.ExPp2CrMV2sJ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326800981	Marionette	INFO	Listening on port 51156
+1557326801209	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326801273	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326801282	Marionette	DEBUG	[6442450945] Frame script registered
+1557326804840	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326805755	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326807433	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326809560	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326822900	Marionette	INFO	Stopped listening on port 51156
+[Child 5336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1672, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 6492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557326844152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.BQ3LiVcsY2g1"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326848881	Marionette	INFO	Listening on port 51276
+1557326849176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326849235	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326849321	Marionette	DEBUG	[6442450945] Frame script registered
+1557326852901	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326853749	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326854682	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557326857059	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557326870351	Marionette	INFO	Stopped listening on port 51276
+[Parent 8304, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8304, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8304, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 7940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557326988144	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.oEYzS3m4QbjR"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557326992971	Marionette	INFO	Listening on port 51492
+1557326993147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557326993216	Marionette	DEBUG	[6442450945] Frame script loaded
+1557326993227	Marionette	DEBUG	[6442450945] Frame script registered
+1557326996798	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557326997645	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557326998723	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327001462	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327014809	Marionette	INFO	Stopped listening on port 51492
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8736, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Parent 8736, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327047833	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.UYeUPLcGaGfS"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327052235	Marionette	INFO	Listening on port 51622
+1557327052247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327052295	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327052384	Marionette	DEBUG	[6442450945] Frame script registered
+1557327056007	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327056821	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327057875	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327059900	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327062909	Marionette	INFO	Stopped listening on port 51622
+[Child 8772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6956, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 7952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6956, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1557327081990	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.0Yf4SxdszxUp"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327086749	Marionette	INFO	Listening on port 51727
+1557327087000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327087094	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327087111	Marionette	DEBUG	[6442450945] Frame script registered
+1557327090678	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327091446	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327092450	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327095100	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327108401	Marionette	INFO	Stopped listening on port 51727
+[Child 6860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5604, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 4604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557327153993	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.YFEaZ9lYnfAy"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327158663	Marionette	INFO	Listening on port 51873
+1557327159033	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327159101	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327159110	Marionette	DEBUG	[6442450945] Frame script registered
+1557327162688	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327163464	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327164529	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327166653	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327179995	Marionette	INFO	Stopped listening on port 51873
+[Child 2412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8580, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 6712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327326919	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.uXZVlGUBmJSo"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87[GFX1-]: CreateShaderResourceView failed for format87
+
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327331640	Marionette	INFO	Listening on port 52108
+1557327332042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327332126	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327332127	Marionette	DEBUG	[6442450945] Frame script registered
+1557327335690	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327336547	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327337528	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327340772	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327354083	Marionette	INFO	Stopped listening on port 52108
+[Child 4668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7176, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 2444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7176, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1557327384838	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.a54yDzVfXAyJ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327389509	Marionette	INFO	Listening on port 52231
+1557327389818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327389890	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327389899	Marionette	DEBUG	[6442450945] Frame script registered
+1557327393466	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327394387	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327395453	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327397353	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327400386	Marionette	INFO	Stopped listening on port 52231
+[Child 6768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 756, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327503630	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.dFZoiNcrEZbf"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327508708	Marionette	INFO	Listening on port 52400
+1557327509080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327509180	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327509242	Marionette	DEBUG	[6442450945] Frame script registered
+1557327512816	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327513547	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327514693	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327516493	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327519548	Marionette	INFO	Stopped listening on port 52400
+[Child 6052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5308, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 8688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327544065	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.vKyD2xyNRsNi"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327549073	Marionette	INFO	Listening on port 52505
+1557327549579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327549646	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327549741	Marionette	DEBUG	[6442450945] Frame script registered
+1557327553312	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327554309	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327555652	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327557671	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327570986	Marionette	INFO	Stopped listening on port 52505
+[Parent 5104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5104, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 3932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327601015	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.hHEMVBc4TG28"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327605545	Marionette	INFO	Listening on port 52627
+1557327606029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327606089	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327606234	Marionette	DEBUG	[6442450945] Frame script registered
+1557327609777	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327610675	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327611571	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327613659	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327616694	Marionette	INFO	Stopped listening on port 52627
+[Child 7532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8992, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 4288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557327640892	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofile.zL6JTwWwWOpN"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1557327645237	Marionette	INFO	Listening on port 52733
+1557327645261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557327645321	Marionette	DEBUG	[6442450945] Frame script loaded
+1557327645330	Marionette	DEBUG	[6442450945] Frame script registered
+1557327649016	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557327649884	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557327650840	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.flipkart.com/
+1557327653201	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.flipkart.com/
+1557327656238	Marionette	INFO	Stopped listening on port 52733
+[Parent 7980, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
