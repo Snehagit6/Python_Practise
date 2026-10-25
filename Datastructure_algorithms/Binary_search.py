@@ -13,9 +13,3 @@ while ixn >= ixo:
         ixn = mid-1
     elif l[mid] < s:
         ixo = mid+1
-
-
-
-
-
-

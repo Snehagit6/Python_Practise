@@ -4,7 +4,7 @@ sum = 0
 for i in range(0, n):
     e = int(input("Enter the element"))
     list.append(e)
-    sum = sum+e
+    sum = sum + e
 
 
 def result():

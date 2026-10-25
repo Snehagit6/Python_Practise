@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>Insertion Sort Studio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17233b;
+      --muted: #68758c;
+      --line: #e4e9f1;
+      --blue: #4776ed;
+      --blue-soft: #eaf0ff;
+      --green: #22a982;
+      --amber: #efaa45;
+      --surface: #fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(ellipse at 12% 0%, #eaf0ff 0, transparent 34rem),
+        #f5f7fb;
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    button, input { font: inherit; }
+
+    .shell {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 34px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      font-weight: 750;
+      letter-spacing: .02em;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--blue);
+      color: white;
+      font-size: 20px;
+      box-shadow: 0 6px 16px #4776ed38;
+    }
+
+    .eyebrow {
+      margin: 0 0 9px;
+      color: var(--blue);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 48px);
+      letter-spacing: -.045em;
+      line-height: 1.08;
+    }
+
+    .intro {
+      max-width: 620px;
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.65fr) minmax(260px, .85fr);
+      gap: 20px;
+      margin-top: 28px;
+    }
+
+    .card {
+      border: 1px solid #e9edf4;
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: 0 12px 32px #2639580b;
+    }
+
+    .visual-card { padding: 22px; }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: -.02em;
+    }
+
+    .subtle {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .status {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: #f1f4f8;
+      color: #59677c;
+      font-size: 11px;
+      font-weight: 750;
+    }
+
+    .status[data-state="running"] { background: var(--blue-soft); color: #315bc6; }
+    .status[data-state="done"] { background: #e5f7f1; color: #168363; }
+
+    .chart {
+      display: flex;
+      height: 250px;
+      align-items: flex-end;
+      gap: clamp(5px, 1.15vw, 12px);
+      margin: 24px 0 20px;
+      padding: 14px 10px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .bar-slot {
+      display: flex;
+      min-width: 0;
+      height: 100%;
+      flex: 1 1 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .bar {
+      display: flex;
+      width: min(54px, 100%);
+      min-height: 16px;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 8px;
+      border-radius: 9px 9px 3px 3px;
+      background: linear-gradient(180deg, #7798f3, #4776ed);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      transition: height .28s ease, background .2s ease, transform .2s ease;
+    }
+
+    .bar.is-current { background: linear-gradient(180deg, #f6c46f, #eaa13c); transform: translateY(-3px); }
+    .bar.is-compare { background: linear-gradient(180deg, #f6c46f, #eaa13c); }
+    .bar.is-sorted { background: linear-gradient(180deg, #54c9a4, #20a77f); }
+
+    .bar-index {
+      padding-bottom: 8px;
+      color: #8994a6;
+      font-size: 10px;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .legend span { display: inline-flex; align-items: center; gap: 7px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); }
+    .dot.compare { background: var(--amber); }
+    .dot.sorted { background: var(--green); }
+
+    .input-card, .step-card { padding: 21px; }
+    .input-card { margin-bottom: 16px; }
+
+    label {
+      display: block;
+      margin: 18px 0 8px;
+      color: #44516a;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .input-row { display: flex; gap: 8px; }
+
+    input {
+      width: 100%;
+      min-width: 0;
+      padding: 11px 12px;
+      border: 1px solid #dce3ed;
+      border-radius: 10px;
+      outline: none;
+      color: var(--ink);
+      background: #fff;
+      font-size: 13px;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px #4776ed1c; }
+
+    button {
+      border: 0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 750;
+      transition: transform .15s, background .15s, opacity .15s;
+    }
+
+    button:hover:not(:disabled) { transform: translateY(-1px); }
+    button:disabled { cursor: not-allowed; opacity: .48; }
+
+    .icon-button {
+      flex: 0 0 auto;
+      padding: 0 13px;
+      border: 1px solid #dce3ed;
+      background: #fff;
+      color: #526079;
+    }
+
+    .helper {
+      margin: 8px 0 0;
+      color: #8a95a6;
+      font-size: 11px;
+    }
+
+    .error {
+      min-height: 16px;
+      margin: 8px 0 0;
+      color: #c34646;
+      font-size: 11px;
+    }
+
+    .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+    .controls button { min-height: 40px; padding: 10px; }
+    .primary { grid-column: span 2; background: var(--blue); color: white; box-shadow: 0 5px 12px #4776ed33; }
+    .primary:hover:not(:disabled) { background: #3867df; }
+    .secondary { border: 1px solid #dce3ed; background: white; color: #43516a; }
+
+    .step-message {
+      min-height: 42px;
+      margin: 14px 0 0;
+      color: #53617a;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 9px;
+      margin-top: 14px;
+    }
+
+    .stat {
+      padding: 11px;
+      border-radius: 11px;
+      background: #f6f8fb;
+    }
+
+    .stat-value { display: block; font-size: 19px; font-weight: 800; letter-spacing: -.03em; }
+    .stat-label { display: block; margin-top: 3px; color: var(--muted); font-size: 10px; }
+
+    .complexity {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.7;
+    }
+
+    .complexity strong { color: #485671; }
+
+    @media (max-width: 760px) {
+      .shell { width: min(100% - 28px, 560px); padding-top: 24px; }
+      header { margin-bottom: 26px; }
+      .layout { grid-template-columns: 1fr; }
+      .chart { height: 220px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><span class="brand-mark" aria-hidden="true">↗</span> ALGORITHM LAB</div>
+      <span class="status" id="status" data-state="ready" role="status">Ready to sort</span>
+    </header>
+
+    <p class="eyebrow">Sorting · 01</p>
+    <h1>Insertion sort,<br>one move at a time.</h1>
+    <p class="intro">Watch each value find its place in the sorted section. Play the full animation or step through every comparison and shift yourself.</p>
+
+    <div class="layout">
+      <section class="card visual-card" aria-labelledby="visual-heading">
+        <div class="section-head">
+          <div>
+            <h2 id="visual-heading">Array visualization</h2>
+            <p class="subtle">Values are sorted from left to right</p>
+          </div>
+          <span class="subtle" id="progress">0 / 5 values sorted</span>
+        </div>
+        <div class="chart" id="chart" role="img" aria-label="Array values shown as bars"></div>
+        <div class="legend" aria-label="Chart legend">
+          <span><i class="dot" aria-hidden="true"></i>Unsorted</span>
+          <span><i class="dot compare" aria-hidden="true"></i>Current value</span>
+          <span><i class="dot sorted" aria-hidden="true"></i>Sorted</span>
+        </div>
+      </section>
+
+      <aside>
+        <section class="card input-card" aria-labelledby="input-heading">
+          <h2 id="input-heading">Your data</h2>
+          <p class="subtle">Choose the numbers you want to sort.</p>
+          <label for="values-input">Array values</label>
+          <div class="input-row">
+            <input id="values-input" type="text" value="2, 73, 89, 4, 0" autocomplete="off" spellcheck="false" aria-describedby="input-help input-error">
+            <button class="icon-button" id="random-button" type="button" aria-label="Generate random numbers" title="Generate random numbers">↻</button>
+          </div>
+          <p class="helper" id="input-help">Enter 2–20 integers, separated by commas.</p>
+          <p class="error" id="input-error" aria-live="polite"></p>
+          <div class="controls">
+            <button class="primary" id="play-button" type="button">▶ &nbsp; Play animation</button>
+            <button class="secondary" id="step-button" type="button">Step forward</button>
+            <button class="secondary" id="reset-button" type="button">Reset</button>
+          </div>
+        </section>
+
+        <section class="card step-card" aria-labelledby="step-heading">
+          <h2 id="step-heading">What’s happening?</h2>
+          <p class="step-message" id="step-message" aria-live="polite">Start the animation to see how insertion sort builds an ordered array.</p>
+          <div class="stats" aria-label="Sort statistics">
+            <div class="stat"><span class="stat-value" id="comparisons">0</span><span class="stat-label">Comparisons</span></div>
+            <div class="stat"><span class="stat-value" id="moves">0</span><span class="stat-label">Shifts</span></div>
+          </div>
+          <div class="complexity"><strong>Time:</strong> O(n²) average · O(n) best<br><strong>Space:</strong> O(1) · in-place</div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    const input = document.querySelector("#values-input");
+    const chart = document.querySelector("#chart");
+    const statusBadge = document.querySelector("#status");
+    const progress = document.querySelector("#progress");
+    const message = document.querySelector("#step-message");
+    const error = document.querySelector("#input-error");
+    const playButton = document.querySelector("#play-button");
+    const stepButton = document.querySelector("#step-button");
+    const resetButton = document.querySelector("#reset-button");
+    const comparisonsOutput = document.querySelector("#comparisons");
+    const movesOutput = document.querySelector("#moves");
+
+    const initialValues = [2, 73, 89, 4, 0];
+    let values = initialValues.slice();
+    let sourceValues = initialValues.slice();
+    let trace = [];
+    let traceIndex = 0;
+    let sortedThrough = 0;
+    let comparisons = 0;
+    let moves = 0;
+    let timer = null;
+    let activeIndex = -1;
+    let comparedIndex = -1;
+
+    function parseValues() {
+      const tokens = input.value.split(",").map((value) => value.trim());
+      if (tokens.length < 2 || tokens.length > 20 || tokens.some((value) => value === "")) {
+        throw new Error("Enter between 2 and 20 comma-separated integers.");
+      }
+      const parsed = tokens.map(Number);
+      if (parsed.some((value) => !Number.isSafeInteger(value))) {
+        throw new Error("Use whole numbers within the safe integer range.");
+      }
+      return parsed;
+    }
+
+    function buildTrace(source) {
+      const array = source.slice();
+      const steps = [];
+      for (let i = 1; i < array.length; i++) {
+        const key = array[i];
+        let j = i - 1;
+        while (j >= 0) {
+          const shouldShift = array[j] > key;
+          steps.push({
+            kind: "compare",
+            snapshot: array.slice(),
+            active: i,
+            compared: j,
+            key,
+            shouldShift
+          });
+          if (!shouldShift) break;
+          array[j + 1] = array[j];
+          steps.push({
+            kind: "shift",
+            snapshot: array.slice(),
+            active: j + 1,
+            compared: j,
+            key
+          });
+          j--;
+        }
+        array[j + 1] = key;
+        steps.push({
+          kind: "insert",
+          snapshot: array.slice(),
+          active: j + 1,
+          sortedThrough: i,
+          key
+        });
+      }
+      return steps;
+    }
+
+    function setStatus(text, state) {
+      statusBadge.textContent = text;
+      statusBadge.dataset.state = state;
+    }
+
+    function render() {
+      chart.replaceChildren();
+      const maxHeight = Math.max(...values.map((value) => Math.abs(value)), 1);
+      values.forEach((value, index) => {
+        const slot = document.createElement("div");
+        slot.className = "bar-slot";
+        const bar = document.createElement("div");
+        bar.className = "bar";
+        bar.style.height = `${Math.max(9, Math.abs(value) / maxHeight * 88)}%`;
+        bar.textContent = String(value);
+        if (index <= sortedThrough && trace.length > 0) bar.classList.add("is-sorted");
+        if (index === activeIndex) bar.classList.add("is-current");
+        else if (index === comparedIndex) bar.classList.add("is-compare");
+        bar.setAttribute("aria-hidden", "true");
+        const indexLabel = document.createElement("span");
+        indexLabel.className = "bar-index";
+        indexLabel.textContent = String(index);
+        slot.append(bar, indexLabel);
+        chart.append(slot);
+      });
+      chart.setAttribute("aria-label", `Array values: ${values.join(", ")}`);
+      const count = trace.length === 0 ? 0 : Math.min(sortedThrough + 1, values.length);
+      progress.textContent = `${count} / ${values.length} values sorted`;
+    }
+
+    function updateStats() {
+      comparisonsOutput.textContent = String(comparisons);
+      movesOutput.textContent = String(moves);
+    }
+
+    function stopPlayback() {
+      if (timer !== null) {
+        window.clearInterval(timer);
+        timer = null;
+      }
+      playButton.textContent = "▶  Play animation";
+      stepButton.disabled = false;
+    }
+
+    function prepareSort() {
+      stopPlayback();
+      try {
+        sourceValues = parseValues();
+      } catch (caught) {
+        error.textContent = caught.message;
+        input.focus();
+        return false;
+      }
+      error.textContent = "";
+      values = sourceValues.slice();
+      trace = buildTrace(sourceValues);
+      traceIndex = 0;
+      sortedThrough = 0;
+      comparisons = 0;
+      moves = 0;
+      activeIndex = -1;
+      comparedIndex = -1;
+      message.textContent = "Ready. The first value is already considered sorted.";
+      setStatus("Ready to sort", "ready");
+      updateStats();
+      render();
+      return true;
+    }
+
+    function finishSort() {
+      stopPlayback();
+      sortedThrough = values.length - 1;
+      activeIndex = -1;
+      comparedIndex = -1;
+      message.textContent = `Complete! The sorted array is [${values.join(", ")}].`;
+      setStatus("Sorted", "done");
+      render();
+    }
+
+    function advance() {
+      if (traceIndex >= trace.length) {
+        finishSort();
+        return false;
+      }
+      const step = trace[traceIndex++];
+      values = step.snapshot.slice();
+      activeIndex = step.active;
+      comparedIndex = step.compared ?? -1;
+      if (step.kind === "compare") {
+        comparisons++;
+        message.textContent = step.shouldShift
+          ? `${step.key} is smaller than ${values[step.compared]}. Shift ${values[step.compared]} one position right.`
+          : `${step.key} is in the correct position: it is not smaller than ${values[step.compared]}.`;
+      } else if (step.kind === "shift") {
+        moves++;
+        message.textContent = `Move ${values[step.active]} one position to the right to make room for ${step.key}.`;
+      } else {
+        sortedThrough = step.sortedThrough;
+        comparedIndex = -1;
+        message.textContent = `Insert ${step.key} into the sorted section. The first ${step.sortedThrough + 1} values are now ordered.`;
+      }
+      updateStats();
+      setStatus("Sorting", "running");
+      render();
+      if (traceIndex >= trace.length && timer === null) finishSort();
+      return true;
+    }
+
+    playButton.addEventListener("click", () => {
+      if (timer !== null) {
+        stopPlayback();
+        setStatus("Paused", "ready");
+        return;
+      }
+      if (traceIndex === 0 && !prepareSort()) return;
+      if (traceIndex >= trace.length) {
+        finishSort();
+        return;
+      }
+      playButton.textContent = "Ⅱ  Pause";
+      stepButton.disabled = true;
+      setStatus("Sorting", "running");
+      timer = window.setInterval(() => {
+        if (!advance()) finishSort();
+      }, 650);
+    });
+
+    stepButton.addEventListener("click", () => {
+      if (traceIndex === 0 && !prepareSort()) return;
+      advance();
+    });
+
+    resetButton.addEventListener("click", () => {
+      input.value = sourceValues.join(", ");
+      prepareSort();
+      message.textContent = "Reset complete. Step forward or play the animation.";
+    });
+
+    document.querySelector("#random-button").addEventListener("click", () => {
+      stopPlayback();
+      const count = 6 + Math.floor(Math.random() * 5);
+      input.value = Array.from({ length: count }, () => Math.floor(Math.random() * 90) + 10).join(", ");
+      prepareSort();
+      message.textContent = "Random values generated. Play or step through the sort.";
+    });
+
+    input.addEventListener("input", () => {
+      error.textContent = "";
+    });
+
+    render();
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+''' '=' operator between 2 lists doesnot create a new object. Both the variable point to the same object/list. So any change by 1 variable will affect the other because list is the same object in memory.'''
+original = [[1, 2, 3], [4, 5, 6]]
+assigned_copy = original
+assigned_copy[0][0] = 'x'
+print(assigned_copy, original)
+
+# Shallow copy
+import copy
+'''Shallow copy creates a new object but doesnot create copies of the nested objects. So any change in the nested objects will affect the original list.'''
+original = [[1, 2, 3], [4, 5, 6]]
+shallow_copied = copy.copy(original) 
+shallow_copied[0][0] = "mimi"
+
+
+#Deep copy[No effect on original list with item changes in teh copied list]
+'''Deep copy creates a new object and also creates copies of the nested objects. So any change in the nested objects will not affect the original list.'''
+deep_copied = copy.deepcopy(original)
+deep_copied[0][0] = 'timi'
+shallow_copied = copy.copy(original)
+shallow_copied[0][0] = 'timi'
+print(original, shallow_copied, deep_copied)

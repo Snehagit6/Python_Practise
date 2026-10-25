@@ -44,17 +44,20 @@ print("Decorated function",alter())
 
 #Decorator with arguments
 
-def decorator(*args, **kwargs):
+def wrap(*args, **kwargs):
     print("Inside decorator")
+    def decorator(func):
+        @wraps(func)
+        def inner(*args, **kwargs):
+            print("Inside inner function")
+            func_vcall = func(*args, **kwargs)
+            print("Start step:", args[0])
+            return func_vcall
+        return inner
+    return decorator
 
-    def inner(func):
-        print("Inside inner function")
-        print("Start step:", args[0])
-        return func
-    return inner
 
-
-@decorator("Step 1")
+@wrap("Step 1")
 def func():
     return
 

@@ -1,0 +1,123 @@
+**Program**  
+
+```python
+def insertion_sort(l):
+    for i in range(len(l)):                # ①
+        min_pos = i
+
+        while min_pos > 0 and l[min_pos] < l[min_pos-1]:   # ②
+            l[min_pos], l[min_pos-1] = l[min_pos-1], l[min_pos]  # swap
+            min_pos = min_pos - 1
+    return l
+```
+
+---
+
+## 1️⃣ What the code does  
+
+The outer `for` loop (①) walks through the list element‑by‑element, treating the portion `l[0:i]` as a **sorted prefix**.  
+
+For each new element at position `i` we walk backwards (the `while` loop ②) as long as the current element is smaller than its predecessor, swapping it leftward until it reaches its proper place.  
+
+That is the classic *insertion sort* algorithm, only expressed with explicit swaps instead of a temporary variable.
+
+---
+
+## 2️⃣ Time‑complexity analysis  
+
+### Outer loop  
+
+Runs `n = len(l)` times → **Θ(n)** iterations.
+
+### Inner `while` loop  
+
+The number of executions of the body depends on how far the current element must travel to the left.
+
+* **Worst case** – the input list is in *strictly decreasing* order.  
+  For each `i` the element at position `i` must be moved all the way to the front, i.e. `i` swaps.  
+  Total swaps  
+
+  \[
+  \sum_{i=0}^{n-1} i = \frac{n(n-1)}{2} = Θ(n^{2})
+  \]
+
+* **Best case** – the input list is already *sorted increasingly*.  
+  The condition `l[min_pos] < l[min_pos-1]` is never true, so the `while` loop executes **0** times for every `i`.  
+  Work = Θ(n) (just the outer loop).
+
+* **Average case** (random permutation) – about half of the preceding elements are smaller, half larger, giving an expected number of swaps ≈ `i/2` for each `i`. The sum again yields Θ(n²).
+
+### Overall  
+
+| Case            | Time complexity |
+|-----------------|-----------------|
+| Worst‑case      | **O(n²)** |
+| Average‑case    | **O(n²)** |
+| Best‑case       | **O(n)**  |
+
+Space usage is **O(1)** (in‑place).
+
+---
+
+## 3️⃣ Why the implementation is not optimal  
+
+* The algorithm itself is optimal for insertion sort, but the **swap** operation exchanges two elements each iteration.  
+* Each swap touches both elements and creates a temporary tuple, which adds a small constant overhead.  
+* The same result can be achieved by **shifting** elements rightward once and inserting the key only once.  
+  That reduces the number of assignments from `2·#swaps` to `#shifts + 1`.
+
+---
+
+## 4️⃣ Optimized version (shift‑based insertion sort)
+
+```python
+def insertion_sort_shift(arr):
+    """Insertion sort that shifts elements instead of swapping.
+    Runs in O(n²) worst‑case, O(n) best‑case and uses O(1) extra space."""
+    n = len(arr)
+    for i in range(1, n):               # start from 1, element 0 is trivially sorted
+        key = arr[i]                     # element to insert
+        j = i - 1
+
+        # shift larger elements one position to the right
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+
+        # place the key into its correct slot
+        arr[j + 1] = key
+    return arr
+```
+
+### How it improves constants  
+
+* **Assignments**: at most `i` shifts + 1 final write per iteration → `i + 1` assignments vs. `2·i` swaps in the original version.  
+* **Readability**: the algorithm follows the textbook description of insertion sort, making it easier to reason about correctness.  
+* **Cache‑friendliness**: shifting writes consecutively to adjacent memory locations, which is slightly better for modern CPUs.
+
+The asymptotic complexity remains the same (still O(n²) worst‑case) because insertion sort fundamentally cannot beat quadratic time for arbitrary input without additional data structures.
+
+---
+
+## 5️⃣ When you might want a faster sort  
+
+If the list size can be large (`n` > a few thousand) and you do not need the *stable* and *online* properties of insertion sort, switch to Python’s built‑in sort:
+
+```python
+sorted_list = sorted(l)          # returns a new sorted list
+l.sort()                         # sorts in place, O(n log n) worst‑case, Timsort
+```
+
+`sorted`/`list.sort()` implement **Timsort**, which is O(n log n) in the worst case, O(n) on already‑sorted data, and is highly tuned for real‑world workloads.
+
+---
+
+## 6️⃣ Summary  
+
+* The provided code is a correct insertion sort.  
+* **Time complexity:**  
+  * Worst‑case / average: **O(n²)**  
+  * Best‑case (already sorted): **O(n)**  
+* **Space complexity:** **O(1)** (in‑place).  
+* An optimized, shift‑based version reduces the constant factor and is the idiomatic way to write insertion sort in Python.  
+* For large inputs, prefer `list.sort()` / `sorted()` (O(n log n)).

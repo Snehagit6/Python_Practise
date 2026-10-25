@@ -364,3 +364,6 @@ while each<len(stringpos):
         pass
 letter = string.ascii_lowercase
 print(letter)
+
+
+# For duplicate characters in a string, always try dictionary approach where keys cannot eb duplicate.

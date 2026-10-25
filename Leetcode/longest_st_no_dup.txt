@@ -1,0 +1,129 @@
+**Original algorithm**
+
+```python
+def lengthOfLongestSubstring(self, s: str) -> int:
+    max_l = 0
+    if len(s) == 1:
+        return 1
+    for ind in range(len(s)):                # ← outer loop
+        for sub_ind in range(ind+1, len(s)): # ← inner loop
+            sub_str = s[ind:sub_ind]         # slice → O(sub_ind‑ind)
+            if len(sub_str) > max_l and len(set(sub_str)) == len(sub_str):
+                max_l = len(sub_str)
+    return max_l
+```
+
+---
+
+## 1. Time‑complexity analysis  
+
+Let `n = len(s)`.
+
+| Step | What is done | Cost per iteration |
+|------|--------------|--------------------|
+| Outer loop (`ind`) | iterates `n` times | – |
+| Inner loop (`sub_ind`) | for a fixed `ind` runs `n‑ind‑1` times | – |
+| Slice `s[ind:sub_ind]` | builds a *new* string of length `k = sub_ind‑ind` | **O(k)** |
+| `set(sub_str)` | builds a set from the slice, also `O(k)` | **O(k)** |
+| `len(set(...)) == len(sub_str)` | constant‑time comparisons | **O(1)** |
+
+For a given pair `(ind, sub_ind)` the work is `Θ(k) = Θ(sub_ind‑ind)`.  
+Summing this over all possible pairs gives:
+
+\[
+\begin{aligned}
+T(n) &= \sum_{ind=0}^{n-1} \sum_{sub\_ind=ind+1}^{n} (sub\_ind-ind) \\
+     &= \sum_{ind=0}^{n-1} \frac{(n-ind)(n-ind+1)}{2} \\
+     &= \Theta\!\left(\frac{n^3}{6}\right) \\
+     &= \Theta(n^3)
+\end{aligned}
+\]
+
+Hence the **worst‑case time complexity is \(O(n^3)\)**.  
+(If we *ignore* the cost of slicing and set construction and treat the inner `if` as O(1), we would obtain \(O(n^2)\), but in Python those operations are **not** constant‑time.)
+
+The algorithm also uses \(O(n)\) extra space for the temporary slice and the temporary set (both proportional to the current substring length).
+
+---
+
+## 2. Why it is slow  
+
+* It examines *every* possible substring – there are \( \frac{n(n+1)}{2} = \Theta(n^2) \) of them.  
+* For each substring it rebuilds the substring and a set, each costing linear time in the substring length.  
+* The repeated work (checking characters that have already been seen in earlier substrings) is unnecessary.
+
+---
+
+## 3. Optimised solution – sliding‑window / two‑pointer technique  
+
+The classic optimal solution runs in linear time by keeping a window `[left, right)` that always contains **distinct** characters.  
+A hash map (or an array for ASCII) stores the most‑recent index of each character.  
+When a duplicate is found, the left border jumps just past the previous occurrence.
+Input: abaabcc
+### Code (Python 3)
+
+```python
+def lengthOfLongestSubstring(self, s: str) -> int:
+    """
+    O(n) time, O(min(m, n)) space where m = size of character set
+    (for ASCII m = 128, for Unicode it can be larger).
+    """
+    last_pos = {}          # char -> last index where it appeared
+    left = 0               # start of the current window
+    max_len = 0
+
+    for right, ch in enumerate(s):
+        # If ch was seen inside the current window, move `left`
+        if ch in last_pos and last_pos[ch] >= left:
+            left = last_pos[ch] + 1
+
+        # Update the last seen position of ch
+        last_pos[ch] = right
+
+        # Window length is right - left + 1
+        max_len = max(max_len, right - left + 1)
+
+    return max_len
+```
+
+#### Complexity  
+
+* **Time:** The `right` pointer moves from `0` to `n‑1` exactly once, and `left` only moves forward. All operations inside the loop are O(1). → **\(O(n)\)**.  
+* **Space:** The dictionary stores at most one entry per distinct character that appears in `s`. → **\(O(\min(m, n))\)** where `m` is the size of the character set (constant for ASCII).
+
+---
+
+## 4. Alternative O(n) version using a `set` (also linear)
+
+If you prefer a more “set‑based” implementation, you can keep a sliding window represented by a set of characters:
+
+```python
+def lengthOfLongestSubstring(self, s: str) -> int:
+    chars = set()
+    left = max_len = 0
+
+    for right, ch in enumerate(s):
+        # Shrink window until ch is no longer inside it
+        while ch in chars:
+            chars.remove(s[left])
+            left += 1
+        chars.add(ch)
+        max_len = max(max_len, right - left + 1)
+
+    return max_len
+```
+
+*Time:* each character is added and removed at most once → **\(O(n)\)**.  
+*Space:* at most the size of the current window → **\(O(min(m, n))\)**.
+
+---
+
+## 5. Summary  
+
+| Approach | Time | Extra Space |
+|----------|------|-------------|
+| Original double‑loop with slicing & `set` | **\(O(n^3)\)** (dominant) | \(O(n)\) (temporary slice/set) |
+| Optimised sliding‑window (hash map) | **\(O(n)\)** | \(O(min(m,n))\) |
+| Sliding‑window with a `set` | **\(O(n)\)** | \(O(min(m,n))\) |
+
+Switching from the brute‑force cubic algorithm to the linear sliding‑window algorithm reduces the running time dramatically—from cubic to linear—while using only a modest amount of extra memory. This is the standard solution for the “Longest Substring Without Repeating Characters” problem (LeetCode #3).
