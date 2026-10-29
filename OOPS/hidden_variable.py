@@ -9,5 +9,5 @@ a=A()
 a.add(7)
 a.square(2)
 # print(a.__hiddenelem)
-print(a.A.__hiddenelem)
+print(a._A__hiddenelem) # Name mangling
 
