@@ -1,6 +1,6 @@
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 def get_perf_ai_response(program):
     completion = client.chat.completions.create(
