@@ -33,11 +33,11 @@ c = 0
 #     col_l.append(i)
 
 while c < len(right.columns.tolist()):
-    for j,i in zip(right.columns.tolist(),left.columns.tolist()):
+    for j,i in zip(right.columns.tolist(), left.columns.tolist()):
         val = right[j]
-        col_i=col_l.index(i)
-        ind=col_i+1
-        if col_i!=0:
+        col_i = col_l.index(i)
+        ind = col_i+1
+        if col_i! = 0:
             ind=ind +c
         left.insert(loc=ind, column=f'{i}_target', value=val)
 
